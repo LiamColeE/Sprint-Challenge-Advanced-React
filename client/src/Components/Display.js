@@ -30,8 +30,9 @@ class Display extends React.Component {
         else {
             return (
                 <div>
+                    <h1>HEY</h1>
                     {
-                        this.state.players.map((player) => {return <Card player={player} key={player.id}/> })
+                        this.state.players.map((player) => { return <Card player={player} key={player.id} /> })
                     }
                 </div>
             );
